@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<title>MY PORTFOLIO</title>
+</head>
+<style>
+.a{display:flex; justify-content: space-between;}
+.b1{
+margin-left:0;
+}
+body{
+	background-image:url(pic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+font-size:20px;
+color: yellow;
+}
+.f{
+border-radius: 50px 50px;
+width: 500px;
+background: transparent;
+height:400px;
+margin-top: 50px;
+border: 0;
+}
+#header {
+       position: fixed;
+			top: 0;
+			left: 70%;
+			width: 100%;
+			height: 50px; 
+			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change " */
+			background: transparent;
+		}
+main{
+position:center;
+  margin-bottom: 0;
+			position: fixed;
+			top:50px; /* Set this to the height of the header */
+			bottom: 20px; /* Set this to the height of the footer */
+			left: 0px; 
+			right: 0; /*para wray border an right han main*/
+			overflow: auto; /*para ma scroll an sulod han main*/
+			background:transparent;
+			background-size: 100%;
+			
+		}
+		.nav-bar a {
+         text-decoration: none;
+         color: white;
+         display: block;
+        
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+      margin-top:0px;
+         padding: 10px;
+         background: linear-gradient(grey,maroon);
+		 border-radius: 10px; 
+      }
+      .nav-bar > ul > li > a:hover {
+         background: linear-gradient( to left,grey,black);
+         color: yellow;
+         border-radius: 10px; 
+      }
+      }
+      .nav-bar .active {
+         background: darkred;
+         color: white;
+      }
+      .nav-bar > ul > li {
+      border-color: maroon;
+      border-bottom: 3px solid  maroon;
+         float: left;
+         width: 100px;
+         text-align: center;
+		 height: 50px;
+		 margin-top: 5px;
+         }
+
+		.footer{
+		text-align: center;
+			position: absolute;
+			left: 0;
+			bottom: 1px;
+			width: 100%;
+			height: 20px; 
+			overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: transparent;
+		}	
+		b{color: white;
+		font-size: 15px;
+		text-shadow: 1px 1px 2px cyan;
+		margin-top: 5px;
+		}
+		i{
+			color:white;
+			font-size: 20px;
+		}
+		fieldset{
+width: 350px;
+		height: 20px;
+		margin-top:0;
+		border-radius:  10px;
+		background: linear-gradient(grey,maroon);
+		border: 5px;
+		margin-left: 10px;
+		}
+		.h1{
+		color: cyan;
+		text-shadow: 1px 1px 1px solid rgb(81, 0, 128);
+		font-size: 20px;
+		margin-right: 50%;
+		}
+		h1{ color: white;}
+			.pic1{
+				margin-top: 20px;
+		height: 500px;
+		width: 500px;
+		border-radius: 50%;
+		position:center;
+		margin-bottom: 20px;
+		}
+		h2{
+		color: yellow;
+		font-size:  30px;
+		
+		}
+		h3{
+		color: yellow;
+		font-size:  30px;
+		text-align: center;
+		}
+		.gallery{
+			background-color: lightslategray;
+			background-clip: border-box;
+			width:auto;
+			height: 500px;
+			background-position: center;
+			text-align: center;
+		}
+		.contact{
+			background-color: lightblue;
+			background-clip: border-box;
+			width:auto;
+			height: 500px;
+			background-position: center;
+			text-align: center;
+			
+		}		
+		.galery{
+			display:flex;
+			width: 300px;
+			height: 300px;
+			padding: 40px;
+			margin-left: 200px;
+		}
+		.pic{
+			margin: 30px;
+		}
+		.lpic{
+			width: 500px;
+			margin-left: 500px;
+		}
+
+</style>
+<body>
+	<fieldset>
+	<i>welcome to my personal website portfolio</i>
+	</fieldset>
+<header id="header">
+	
+<div class="header">
+	<div class="nav-bar">
+<ul>
+<li> <a href="#home">Home</a></li>
+<li> <a href="#gallery">gallery</a> </li>
+<li> <a href="#contact">contact me</a></li>
+</ul>
+</div>
+
+</header>
+<main>
+<div class="a" id="home">
+<fieldset class="f">
+<h2>Hi, I am</h2><h1><span>FRANS NINO HAMTIG</span></h1>
+       <p> 20 years of age. Currently residing at Barangay Barugohay Norte Carigara, Leyte. A 2nd year college student of Eastern Visaysas State University
+	taking up the course of Bachelor of Science in Information Technology . I am a person that full of dreams in life and believing that someday I can achieve all of those. My motivation in facing every challenges is believing my motto in life which is"IF OTHERS CAN WHY CAN'T I.</p>
+	</fieldset>
+	<img class="pic1" src="pic2.jpg"/>
+</div>
+<div id="gallery"class="gallery">
+	<h2>gallery</h2>
+	<div class="galery">
+		<img class="pic"src="pic1.jpg" alt="">
+		<img class="pic"src="pic2.jpg" alt="">
+		<img class="pic"src="pic3.jpg" alt="">
+		<img class="pic"src="pic4.jpeg" alt="">
+		<img class="pic"src="pic5.jpeg" alt="">
+	</div>
+
+
+</div>
+
+<div id="contact"class="contact">
+	<h2>contact me</h2>
+	<div class="galery">
+		<img class="tiktok" src="tiktok.jpg"/>
+		<img class="facebook" src="facebook.jpg"/>
+		<img class="youtube" src="youtube.jpg"/>
+	</div>
+
+</div>
+</main>
+<footer class="footer">
+  <b> © Copyright FRANZ NINO HAMTIG 2001 </b>
+			</footer>
+</body>
+</html>
+
+
+
+
+
+
+
